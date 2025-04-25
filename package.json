@@ -1,0 +1,30 @@
+{
+  "name": "sistema_hqs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nunesnd/sistema_diego_nunes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nunesnd/sistema_diego_nunes/issues"
+  },
+  "homepage": "https://github.com/Nunesnd/sistema_diego_nunes#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.15.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
